@@ -1,0 +1,144 @@
+body, html, #intro-img {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.navbar {
+	background: #317e96;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0px 20px 0px 0px;
+
+
+}
+
+.navbar li {
+	font-size: 40px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: gold;
+}
+
+a:hover {
+	color: #fffdbc;
+}
+
+.anchor{
+  	display: block;
+ 	height: 50px; /*same height as header*/
+ 	margin-top: -50px; /*same height as header*/
+  	visibility: hidden;
+}
+
+#intro-img {
+	background: url("nyc-1-edit.jpg") center center;
+	background-size: cover;
+	position: absolute;
+	z-index: -9999;
+}
+
+.intro {
+	height: 100%;
+}
+
+.intro h1, .intro p {
+	margin: 0px 20px;
+}
+
+.intro h1 {
+	font-size: 200px;
+	font-family: 'Galada', cursive;
+	color: white;
+	padding-top: 15%;
+}
+
+.intro p {
+	font-size: 38px;
+	font-weight: bold;
+	margin-left: 24%;
+	margin-right: 24%;
+	background-color: gold;
+	color: #027491;
+	margin-top: -6%;
+}
+
+.container {
+	padding-top: .25px;
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+.about, .projects, .skills, .education, .contact{
+	height: 603px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.about {
+	text-align: center;
+}
+
+.about img {
+	border-radius: 50%;
+}
+
+.about p {
+	/*margin-left: 10%;
+	margin-right: 10%;*/
+	font-size: 20px;
+}
+
+.projects ul, .education ul, .skills ul{
+	padding: 1%;
+	list-style: none;
+	margin: 0;
+}
+
+.projects li, .skills li, .skills p,  .education li, .contact p{
+	font-size: 30px;
+}
+
+.projects p, .education p {
+	font-size: 35px;
+	text-decoration: underline;
+}
+.contact, .contact .info {
+	text-align: center;
+}
+
+.contact .info {
+	padding: 5%;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.container h2 {
+	font-size: 50px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffc700;
+}
