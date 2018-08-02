@@ -5,3 +5,6 @@ Please stay tuned.
 
 07/19/2018
 Headsup update #1: I will add an 'Experience' section into the resume site. 
+
+08/02/2018
+Update #2: I have recently realized that my website does not render the elements where they should be on a Chrome and Internet Explorer when using a Windows computer. It has seemed to work fine on my Macbook in Chrome. Please have this in mind when viewing. Thank you. 
